@@ -1,0 +1,85 @@
+*{
+    padding:0;margin:0;box-sizing:border;
+  }
+  .clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+  }
+  .nav{
+    background:#888;
+    width:900px;
+    margin:0 auto;
+  }
+  
+  .logo{
+    height:30px;
+    width:70px;
+    background:#ddd;
+    float:left;
+    line-height:30px;
+    text-align:center;
+  }
+  
+  .menus{
+  }
+  
+  .item{
+    height:30px;
+    width:70px;
+    float:right;
+    margin-left:5px;
+    background:#ddd;
+  }
+  
+  .show{
+    width:600px;
+    margin:0 auto;
+    margin-top:10px;
+    height:250px;
+    background:#aaa;
+  }
+  
+  .xxx{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:-10px;
+    margin-left:-10px;
+    margin-right:-10px;
+    margin-bottom:-10px;
+    
+  }
+  
+  .pics{
+    width:600px;
+    margin:0 auto;
+    margin-top:10px;
+  }
+  
+  .pic{
+    width:135px;
+    height:70px;
+    background:#ddd;
+    margin:12px 10px;
+  }
+  
+  .protfilo{
+    width:600px;
+    margin:0 auto;
+    margin-top:20px;
+  }
+  .left{
+    height:220px;
+    background:#aaa;
+    float:left;
+    width:157px;
+  }
+  .right{
+    height:220px;
+    background:#aaa;
+    width:405px;
+    float:left;
+    margin-left:38px;
+  }
+  
+  
